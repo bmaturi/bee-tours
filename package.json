@@ -1,0 +1,17 @@
+{
+  "name": "bee-tours",
+  "version": "1.0.0",
+  "description": "Bee Tours",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass sass/main.scss css/main.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

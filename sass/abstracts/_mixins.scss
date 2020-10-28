@@ -1,0 +1,12 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin section-common {
+    padding: 25rem 0;
+    margin-top: -20vh;
+}

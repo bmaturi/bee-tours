@@ -1,0 +1,27 @@
+.section-about {
+    background-color: $color-grey-light-1;
+    @include section-common;
+}
+
+.section-features {
+    @include section-common;
+
+    background-image: linear-gradient(
+        to right bottom,
+        $light-green-transparent,
+        $dark-green-transparent),
+        url('../../img/nat-4.jpg');
+    background-size: cover;
+
+    transform: skewY(-7deg);
+
+    // selects all direct children
+    & > * {
+        transform: skewY(7deg);
+    }
+}
+
+.section-tours {
+    @include section-common;
+    background-color: $color-grey-light-1;
+}

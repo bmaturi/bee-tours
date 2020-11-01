@@ -47,6 +47,15 @@
             background-color: $color-white;
         }
     }
+
+    &-green {
+        background-color: $color-primary-light;
+        color: $color-grey-dark;
+    
+        &::after {
+            background-color: $color-white;
+        }
+    }
     
     &-animated {
         animation: moveInBottom 1s ease-out .75s;

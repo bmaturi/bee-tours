@@ -25,3 +25,8 @@
     @include section-common;
     background-color: $color-grey-light-1;
 }
+
+.section-stories {
+    @include section-common;
+    position: relative;
+}

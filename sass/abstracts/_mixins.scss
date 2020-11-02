@@ -10,3 +10,10 @@
     padding: 25rem 0;
     margin-top: -20vh;
 }
+
+@mixin position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
